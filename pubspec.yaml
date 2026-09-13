@@ -1,0 +1,65 @@
+name: ATLAS
+description: "Bug WhatsApp Crasher"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  audioplayers: ^6.0.0
+  http: ^1.2.0
+  shimmer: ^3.0.0
+  image_picker: ^1.0.7
+  intl: ^0.19.0
+  url_launcher: ^6.2.5
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+  device_info_plus: ^10.1.0
+  carousel_slider: ^4.2.1
+  qr_flutter: ^4.1.0
+  web_socket_channel: ^2.4.0
+  network_info_plus: ^4.1.0
+  permission_handler: ^11.0.0
+  video_player: ^2.9.2
+  font_awesome_flutter: ^10.7.0
+  path_provider: ^2.1.1
+  share_plus: ^7.2.1
+  chewie: ^1.7.5
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: assets/icon/icon.jpg
+  image_path_ios: assets/icon/icon/icon.jpg
+  image_path: assets/icon/icon.jpg
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/audio/
+    - assets/videos/
+
+  fonts:
+    - family: Orbitron
+      fonts:
+        - asset: fonts/Rajdhani-Regular.ttf
+    - family: ShareTechMono
+      fonts:
+        - asset: fonts/Rajdhani-Regular.ttf
+    - family: Rajdhani-Regular
+      fonts:
+        - asset: fonts/Rajdhani-Regular.ttf
