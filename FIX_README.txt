@@ -1,0 +1,1 @@
+READY BUILD FIX\n\n- White screen fixed\n- ThemeProvider connected\n- Color setting fixed\n- Provider dependency added\n- Build should now run normally\n
